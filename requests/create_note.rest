@@ -1,0 +1,3 @@
+curl -X POST http://localhost:3001/api/persons \
+-H "Content-Type: application/json" \
+-d '{"name": "Liisa Maki", "number": "123-123"}'
